@@ -2,7 +2,7 @@
 
 ## Step 0 - Installation
 
-1. Download Chronology [here](https://pypi.org/project/chronological/) using the command:
+1. Download Chronology using the command (*you can also find it on pip [here](https://pypi.org/project/chronological/)*):
 ```python
 python3 -m pip install chronological
 ```
@@ -10,7 +10,7 @@ python3 -m pip install chronological
 3. Create a `.env` file and add your OpenAI API key to it in the format: `OPENAI_API_KEY="MY_API_KEY"`
 4. Run each step with the command: 
 ```python
-python3 step_{NUMBER}.py
+python3 step_1.py
 ```
 
 ## Step 1 - Completions
@@ -50,4 +50,5 @@ If you would prefer to build Chronology chains without writing code, I have grea
 Here is a [in depth Loom video tutorial on how to use Chronology UI with Chronology](https://www.loom.com/share/47cb8d328ebd446db4d98ea1c0cac2c7)
 
 *They say a picture is worth 1000 words, so what's a video worth!*
+
 *You can see the GitHub repo for Chronology UI [here](https://github.com/OthersideAI/chronology-ui)*
