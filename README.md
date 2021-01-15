@@ -11,7 +11,7 @@ Completions are the bread and butter of the OpenAI API, and the first thing most
 In this step, we'll examine how to:
 
 1. Read a prompt from a text file
-2. Use prompt to make a completion from the `davinci` engine
+2. Use the prompt to make a completion from the `davinci` engine
 3. Load in two variables and attach them to the same prompt
 4. Create completions with each variable-formatted prompt
 
