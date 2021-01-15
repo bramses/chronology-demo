@@ -1,5 +1,7 @@
 # How To Use Chronology -- A Walkthrough Demo
 
+# [WATCH THE DEMO LIVESTREAM HERE](https://youtu.be/G3PctszbrrE)
+
 ## Step 0 - Installation
 
 1. Download Chronology using the command (*you can also find it on pip [here](https://pypi.org/project/chronological/)*):
