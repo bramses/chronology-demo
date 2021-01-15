@@ -2,7 +2,16 @@
 
 ## Step 0 - Installation
 
-1. Download Chronology [here](https://pypi.org/project/chronological/)
+1. Download Chronology [here](https://pypi.org/project/chronological/) using the command:
+```python
+python3 -m pip install chronological
+```
+2. Clone this repo to your local machine
+3. Create a `.env` file and add your OpenAI API key to it in the format: `OPENAI_API_KEY="MY_API_KEY"`
+4. Run each step with the command: 
+```python
+python3 step_{NUMBER}.py
+```
 
 ## Step 1 - Completions
 
@@ -10,8 +19,8 @@ Completions are the bread and butter of the OpenAI API, and the first thing most
 
 In this step, we'll examine how to:
 
-1. Read a prompt from a text file
-2. Use the prompt to make a `awaited completion` from the `davinci` engine
+1. Read in a prompt from a text file
+2. Use the prompt to make an `awaited completion` from the `davinci` engine
 3. Load in two variables and attach them to the same prompt
 4. Create completions with each variable-formatted prompt
 
